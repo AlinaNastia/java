@@ -20,4 +20,5 @@ name_orz+num_orz_week;
 var num_vetr_tues=1
 var num_vetr_wedn=4
 num_vetr_week=num_vetr_tues+num_vetr_wedn;
-name_vetr+num_vetr_week
+name_vetr+num_vetr_week;
+name_vetr+num_vetr_week+name_orz+num_orz_week

@@ -64,43 +64,52 @@
             console.log(infoPazient[4]);
             console.log(infoPazient[5]);
             console.log(infoPazient[6]);
-            let lastname;
-            lastname=prompt('Введите фамилию пациента', lastname);
-            console.log(lastname);
-            infoPazient[0]= lastname;
-            console.log(infoPazient);
+            var person = {
+"SNILS 1": ["Иванов", "Иван", "Иванович", 15, "мая", 1974, "м"],
+"SNILS 2": ["Фролова", "Анастасия", "Евгеньевна", 08, "сентября", 2004, "ж"],
+"SNILS 3": ["Васильева", "Алина", "Алексеевна", 01, "сентябрь", 2004, "ж"],
+            };
+            console.log(person);
+            SNILS4="SNILS 4"
+            person.SNILS4=[];
+            console.log(person);
             let name;
             name=prompt('Введите имя пациента', name);
-            console.log(name);
+            // console.log(person);
             infoPazient[1]= name;
             console.log(infoPazient);
             let firstname;
             firstname=prompt('Введите отчество пациента', firstname);
-            console.log(firstname);
+            // console.log(person);
             infoPazient[2]= firstname;
             console.log(infoPazient);
             let data;
             data=prompt('Введите число рождения пациента', data);
-            console.log(data);
+            // console.log(person);
             infoPazient[3]= data;
             console.log(infoPazient);
             let month;
             month=prompt('Введите месяц рождения пациента', month);
-            console.log(month);
+            // console.log(person);
             infoPazient[4]= month;
             console.log(infoPazient);
             let year;
             year=prompt('Введите год рождения пациента', year);
-            console.log(year);
+            // console.log(person);
             infoPazient[5]= year;
             console.log(infoPazient);
             let gender;
             gender=prompt('Введите пол пациента', gender);
-            console.log(gender);
+            // console.log(person);
             infoPazient[6]= gender;
             console.log(infoPazient);
+let SNILS
+SNILS=prompt("Введите SNILS пациента", SNILS);
+infoname=person[SNILS];
+console.log(infoname);
+alert("Информация о пациенте"+ infoname);
 
-        </script>
+</script>
 </body>
 
 </html>

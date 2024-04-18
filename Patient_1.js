@@ -18,3 +18,7 @@ class Patient {
 }
 let Ivanov = new Patient('Иванов','Иван','Иванович', new Date(1980, 6, 10), "м", "Назначено");
 Ivanov.setById();
+let Petrov = new Patient('Петров','Петр','Петрович', new Date(1975, 6, 10), "м", "Назначено");
+Petrov.setById();
+let Sidorov = new Patient('Сидоров','Сидор','Сидорович', new Date(1970, 6, 10), "м", "Назначено");
+Sidorov.setById();
